@@ -7,7 +7,8 @@ def Binary_Search(arr, to_find):
      returns: index (int), x, s.t. arr[x] == to_find
               None(none-type) if for all x, arr[x] != to_find
     """
-    x = len(arr) / 2 
+    x = len(arr) / 2
+    i = 1
     found = True
     while arr[x] != to_find:
 
@@ -37,4 +38,4 @@ def Bisection(func, left_side, right_side, tol=1e-5):
      returns: root (float), x, s.t. abs(func(x))<tol
               None(none-type) if func(left_side), func(right_side) < 0 or func(left_side), func(right_side) > 0
     """
-    pass
+    print 'hello world'
